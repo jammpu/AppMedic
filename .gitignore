@@ -1,0 +1,15 @@
+node_modules/
+# Archivos de configuración local
+.env
+
+# Archivos generados
+bin/
+obj/
+
+# Archivos temporales
+*.tmp
+*~
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
