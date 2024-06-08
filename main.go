@@ -22,7 +22,7 @@ var store = sessions.NewCookieStore([]byte("secret-key"))
 var plantillas = template.Must(template.ParseGlob("src/templates/*"))
 
 func main() {
-	cDB = conexionDB()
+	cDB = conbd.conexionDB()
 
 	// Cargar archivos estaticos
 	fs := http.FileServer(http.Dir("./src/styles"))
